@@ -1,0 +1,50 @@
+.hero {
+  width: 100%;
+  height: 75vh;
+  background: url(../../public/imgs/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1rem;
+}
+
+main {
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+/* STYLES FOR GRID */
+
+.product,
+.card,
+.contact-us {
+  margin-bottom: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.products,
+.cards,
+.contact-us {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+/* At 600px 2 column */
+@media (min-width: 600px) {
+  .products,
+  .cards,
+  .contact-us {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* At 900px 3 columns */
+@media (min-width: 900px) {
+  .products,
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

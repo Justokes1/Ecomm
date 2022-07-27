@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+  font-family: "Advent Pro", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+  font-family: "Advent Pro", sans-serif;
+}
+
+/* STYLES FOR NAV */
+.logo h1 {
+  font-family: "Cookie", cursive;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #db8f13;
+  height: 56px;
+  padding: 0px 1rem;
+}
+
+nav {
+  width: 50%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+nav ul li {
+  list-style: none;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  border-bottom: 2px #db8f13;
+  color: #db8f13;
+}
+
+a:visited {
+  color: inherit;
+}
